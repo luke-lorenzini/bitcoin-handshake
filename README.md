@@ -41,6 +41,12 @@ Received 'verack'
 Handshake successful!
 ```
 
+Alternatively, you can attempt to handshake a known "in the wild" node at `169.120.69.82:8333` by running:
+
+```bash
+cargo run
+```
+
 ## Structure
 
 The program is structured in the following hierarcy. Binaries are located in the *bin* folder. *message.rs* is the main building block for messages consisting of headers, *header.rs* and payloads, *payload.rs*.
